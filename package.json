@@ -1,0 +1,55 @@
+{
+  "name": "inframantra-cms-final-repo",
+  "version": "1.0.0",
+  "description": "Its A CMS backend and REST API final Repo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "node build'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infra-mantra/inframantra-cms-final-repo.git"
+  },
+  "keywords": [
+    "Inframantra",
+    "Inframantra",
+    "CMS",
+    "Backend"
+  ],
+  "author": "Inframantra",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.577.0",
+    "aws-sdk": "^2.1623.0",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.1.0",
+    "fs": "^0.0.1-security",
+    "http-proxy-middleware": "^3.0.0",
+    "joi": "^17.13.3",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.2.1",
+    "mongoose-unique-validator": "^5.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.33.5",
+    "slug": "^9.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/infra-mantra/inframantra-cms-final-repo/issues"
+  },
+  "homepage": "https://github.com/infra-mantra/inframantra-cms-final-repo#readme"
+}
